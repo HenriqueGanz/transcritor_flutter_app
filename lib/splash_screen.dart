@@ -45,7 +45,7 @@ class SplashScreen extends StatelessWidget {
               ),
               SizedBox(height: 4),
               Text(
-                'v1.0.0',
+                'v1.4.1',
                 style: TextStyle(color: Colors.grey),
               ),
             ],
