@@ -15,7 +15,11 @@ O **Transcritor de Voz** é uma ferramenta leve e eficiente para conversão de v
 ## ✨ Funcionalidades
 
 - 🎤 **Transcrição Instantânea**: converte automaticamente o áudio captado pelo microfone em texto.
-- 🌍 **Suporte a Múltiplos Idiomas**: atualmente compatível com Português (Brasil), mas também é possível acrescentar Inglês (EUA).
+- 🌍 **Seletor de Idiomas**: suporte a 6 idiomas (Português BR, Inglês US, Espanhol, Francês, Alemão e Italiano) com troca em tempo real.
+- 📋 **Copiar para Área de Transferência**: copie rapidamente o texto transcrito com um único toque.
+- 📚 **Histórico de Transcrições**: salva automaticamente as últimas 20 transcrições com data/hora para consulta posterior.
+- 🔤 **Ajuste de Tamanho da Fonte**: personalize o tamanho do texto (12-32pt) para melhor legibilidade e acessibilidade.
+- 🌓 **Modo Escuro/Claro**: alterne entre temas claro e escuro para conforto visual em diferentes ambientes.
 - 🟢 **Botão de Ação Única**: interface simples para iniciar ou parar a transcrição com um único toque.
 - 🧹 **Gerenciamento de Texto**: permite limpar a transcrição ou salvá-la localmente.
 - 📁 **Exportar e Compartilhar**: possibilita salvar a transcrição em um arquivo `.txt` e compartilhá-lo via recursos nativos do sistema.
@@ -32,11 +36,12 @@ O **Transcritor de Voz** é uma ferramenta leve e eficiente para conversão de v
 
 ### 📦 Principais pacotes utilizados
 
-| Pacote           | Descrição                                       |
-| ---------------- | ----------------------------------------------- |
-| `speech_to_text` | Reconhecimento de voz nativo                    |
-| `path_provider`  | Localização segura de diretórios no dispositivo |
-| `share_plus`     | Compartilhamento de arquivos via sistema nativo |
+| Pacote                | Descrição                                       |
+| --------------------- | ----------------------------------------------- |
+| `speech_to_text`      | Reconhecimento de voz nativo                    |
+| `path_provider`       | Localização segura de diretórios no dispositivo |
+| `share_plus`          | Compartilhamento de arquivos via sistema nativo |
+| `shared_preferences`  | Persistência de preferências do usuário         |
 
 ---
 
